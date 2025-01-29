@@ -7,12 +7,12 @@ console.log(arr1[4]);
 // 2. Objects
 
 const obj = {
-    name1:"jhon",
+    name1:"jhon",  //key:value
     roll : 123
 }
 
 const obj1 = {
-    ...obj,
+    ...obj,    //spread operatore
     name:"hello",
     roll_no : 132
 }
